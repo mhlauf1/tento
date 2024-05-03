@@ -33,7 +33,7 @@ const AboutCards = (props: Props) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
       {cardData.map((card) => (
-        <div key={card.title}>
+        <div className="flex flex-1" key={card.title}>
           <AboutCard title={card.title} description={card.description} />
         </div>
       ))}
