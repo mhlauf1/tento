@@ -2,32 +2,64 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+h1 {
+  font-size: 4.5rem;
+  line-height: 110%;
+  font-weight: 200;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+h2 {
+  font-size: 2.75rem;
+  line-height: 120%;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 120%;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+}
+
+p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+span {
+  font-size: 0.85rem;
+}
+
+span,
+button {
+  letter-spacing: 0.5px;
+  font-weight: 300;
+}
+
+.logo-text {
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.bg-grey {
+  background-color: #f8f8f8;
+}
+
+.p-height {
+  line-height: 175%;
+}
+
+@media (max-width: 787px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@media (max-width: 487px) {
+  h1 {
+    font-size: 2rem;
   }
 }
