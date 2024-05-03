@@ -11,7 +11,11 @@ const FooterList = ({ title, links }: any) => (
     </h4>
     <div className="flex flex-col gap-6 items-start">
       {links.map((link: any) => (
-        <Link className="text-sm font-extralight" href={link.href}>
+        <Link
+          key={link.text}
+          className="text-sm font-extralight"
+          href={link.href}
+        >
           {link.text}
         </Link>
       ))}
