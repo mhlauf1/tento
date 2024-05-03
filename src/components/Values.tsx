@@ -4,7 +4,8 @@ import { valuesData } from "@/lib/data";
 
 const ValueItem = ({ value }: any) => (
   <div
-    className={`${value.color} p-12 flex flex-col h-[400px] justify-between`}
+    style={{ backgroundColor: value.color }}
+    className="p-12 flex flex-col h-[400px] justify-between"
   >
     <h3 className="text-3xl text-neutral-400">{value.title}</h3>
     <p className="text-md text-neutral-500">{value.text}</p>

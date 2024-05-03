@@ -109,31 +109,32 @@ export const valuesData = [
     {
         title: "Integrity",
         text: "We champion transparency and honesty, building trust with every interaction.",
-        color: "bg-blue-50",
+        color: "rgb(239 246 255)",
     },
     {
         title: "Creativity",
         text: "Creativity is our core. We innovate and differentiate to captivate and excel.",
-        color: "bg-green-50",
+        color: "rgb(248 250 252)",
+
     },
     {
         title: "Collaboration",
         text: "Your vision, our expertise—combined to create impactful branding.",
-        color: "bg-grey-500",
+        color: "rgb(240 253 244)",
     },
     {
         title: "Excellence",
         text: "Committed to the highest standards, we strive for unmatched results.",
-        color: "bg-grey-500",
+        color: "",
     },
     {
         title: "Sustainability",
         text: "We implement sustainable solutions for a better tomorrow.",
-        color: "bg-orange-50",
+        color: "rgb(255 247 237)",
     },
     {
         title: "Adaptability",
         text: " Agile and responsive, we ensure your brand thrives in a dynamic market.",
-        color: "bg-yellow-50",
+        color: "rgb(254 252 232)",
     },
 ];
