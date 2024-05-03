@@ -27,12 +27,12 @@ const Values = () => {
       </div>
       <div className="mt-32 lg:ml-[400px]">
         <h2 className="lg:w-4/5">
-          Delivering Unparalleled Digital Experiences on Every Platform: That's
-          Our Promise at Innovate Design.
+          Delivering Unparalleled Digital Experiences on Every Platform:
+          That&apos;s Our Promise at Innovate Design.
         </h2>
         <div className="flex flex-col lg:flex-row mt-12 gap-16">
           <p className="text-neutral-500 p-height font-light lg:w-[42ch]">
-            At Innovate Design, we're committed to delivering unparalleled
+            At Innovate Design, we&apos;re committed to delivering unparalleled
             digital experiences on every platform. In our digital-first world, a
             robust online presence is essential for connecting with your
             audience effectively. We prioritize creating seamless, engaging
@@ -43,8 +43,8 @@ const Values = () => {
             works closely together to develop bespoke digital solutions that
             address the unique needs of your business. From crafting intuitive
             websites to developing dynamic mobile apps and enhancing e-commerce
-            platforms, we're dedicated to exceeding your expectations with every
-            project.
+            platforms, we&apos;re dedicated to exceeding your expectations with
+            every project.
           </p>
         </div>
       </div>

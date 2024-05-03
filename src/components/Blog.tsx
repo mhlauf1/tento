@@ -38,7 +38,9 @@ const Blog = (props: Props) => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
         {blogData.map((blog) => (
-          <BlogCard image={blog.image} title={blog.title} />
+          <div key={blog.title}>
+            <BlogCard image={blog.image} title={blog.title} />
+          </div>
         ))}
       </div>
     </section>

@@ -45,12 +45,14 @@ const SelectedWork = (props: Props) => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         {workData.map((item) => (
-          <WorkCard
-            image={item.image}
-            title={item.title}
-            buttonText={item.buttonText}
-            href={item.href}
-          />
+          <div key={item.title}>
+            <WorkCard
+              image={item.image}
+              title={item.title}
+              buttonText={item.buttonText}
+              href={item.href}
+            />
+          </div>
         ))}
       </div>
     </section>

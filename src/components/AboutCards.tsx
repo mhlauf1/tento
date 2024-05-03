@@ -12,7 +12,7 @@ const cardData = [
   {
     title: "Creative Design & Identity",
     description:
-      "Transform your brand with compelling designs and a distinctive identity that captures your company's essence and appeals to your target audience.",
+      "Transform your brand with compelling designs and a distinctive identity that captures your company&apos;s essence and appeals to your target audience.",
     href: "/engineering",
   },
   {
@@ -33,7 +33,9 @@ const AboutCards = (props: Props) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
       {cardData.map((card) => (
-        <AboutCard title={card.title} description={card.description} />
+        <div key={card.title}>
+          <AboutCard title={card.title} description={card.description} />
+        </div>
       ))}
     </div>
   );

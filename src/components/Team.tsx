@@ -71,11 +71,13 @@ const Team = (props: Props) => {
           </button>
         </div>
         {employees.map((employee) => (
-          <Employee
-            src={employee.src}
-            name={employee.name}
-            position={employee.position}
-          />
+          <div key={employee.name}>
+            <Employee
+              src={employee.src}
+              name={employee.name}
+              position={employee.position}
+            />
+          </div>
         ))}
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-12 mt-32">
@@ -94,7 +96,7 @@ const Team = (props: Props) => {
             className="text-neutral-700 font-light"
           >
             After partnering with Innovate Design for a comprehensive rebrand,
-            we've been exceedingly pleased with the outcome. Their thorough
+            we&apos;ve been exceedingly pleased with the outcome. Their thorough
             market research and analysis pinpointed our target audience and
             carved out a distinctive brand position for us. The team designed a
             striking logo and ensured cohesive branding across all platforms.
@@ -123,16 +125,16 @@ const Team = (props: Props) => {
           </h3>
           <p style={{ lineHeight: "175%" }} className="text-neutral-700">
             For our expanding business, establishing a strong and consistent
-            brand was crucial. Innovate Design's brand management services were
-            instrumental in achieving this. They performed a comprehensive brand
-            audit, delivering insightful feedback and actionable
+            brand was crucial. Innovate Design&apos;s brand management services
+            were instrumental in achieving this. They performed a comprehensive
+            brand audit, delivering insightful feedback and actionable
             recommendations.
           </p>
           <p style={{ lineHeight: "175%" }} className="text-neutral-700 mt-8">
             Their continual monitoring and management of our branding efforts
             have ensured consistency and alignment with our business objectives.
             We are extremely satisfied with the outcomes and strongly recommend
-            Innovate Design's brand management services.
+            Innovate Design&apos;s brand management services.
           </p>
         </div>
       </div>

@@ -27,7 +27,9 @@ const Footer = (props: Props) => {
           <h2 className="logo-text">Tento</h2>
         </div>
         {footerLinks.map((item) => (
-          <FooterList title={item.title} links={item.links} />
+          <div key={item.title}>
+            <FooterList title={item.title} links={item.links} />
+          </div>
         ))}
       </div>
 
