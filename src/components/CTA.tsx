@@ -11,7 +11,8 @@ const CTA = (props: Props) => {
         </div>
         <div className="flex items-start flex-col lg:w-[75%]">
           <h2 className="lg:w-[80%]">
-            Let's begin crafting your brand&apos;s unique narrative together.
+            Let&apos;s begin crafting your brand&apos;s unique narrative
+            together.
           </h2>
           <p className=" text-gray-500 mt-6 mb-10 lg:w-[44ch]">
             Curious about the impact of a robust brand? Schedule a consultation
